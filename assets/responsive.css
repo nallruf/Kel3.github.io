@@ -1,0 +1,37 @@
+@media (max-width: 1000px) {
+  .hero {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .hero-left {
+    flex-basis: 100%;
+  }
+  .hero-left h1 {
+    font-size: 30px;
+  }
+  .hero-right {
+    flex-basis: 100%;
+  }
+  .hero-right img {
+    width: 70%;
+    margin-top: 30px;
+    /* margin: 20px auto; */
+    align-items: center;
+    /* align-content: flex-end; */
+  }
+  .hijau {
+    color: rgba(6, 186, 99, 0.8);
+    font-size: 32px;
+  }
+  .box {
+    height: 650px;
+  }
+  .list {
+    float: left;
+    width: 50%;
+    display: block;
+  }
+}
+
+@media (max-width: 670px) {
+}
